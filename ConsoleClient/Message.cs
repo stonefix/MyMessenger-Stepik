@@ -4,8 +4,10 @@ using System.Text;
 
 namespace MyMessenger_Stepik
 {
+    [Serializable]
     public class Message
     {
+
         public Message(string userName, string messageText, DateTime timeStamp)
         {
             UserName = userName;
